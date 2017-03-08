@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Rekenmachine</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:600,700|Ubuntu:500,700" rel="stylesheet">
+  <script src="js/calc.js"></script>
+</head>
+
+<body>
+
+  <script type="text/javascript" src="js/calc.js"></script>
+
+    <div id="calc">
+      <div class="control">
+        <div class="bt reset" onclick="reset();">C</div>
+        <div class="screen"></div>
+      </div>
+
+  <div class="keys">
+    <span class="bbt" onclick="plusTax('+BTW');">+BTW</span>
+    <span class="bbt" onclick="minTax('-BTW')">-BTW</span>
+
+    <span class="bt" onclick="addNumber(7);">7</span>
+    <span class="bt" onclick="addNumber(8);">8</span>
+    <span class="bt" onclick="addNumber(9);">9</span>
+
+    <span class="bt" onclick="addOperator('+');">+</span>
+
+    <span class="bt" onclick="addNumber(4);">4</span>
+    <span class="bt" onclick="addNumber(5);">5</span>
+    <span class="bt" onclick="addNumber(6);">6</span>
+
+    <span class="bt" onclick="addOperator('-');">-</span>
+
+    <span class="bt" onclick="addNumber(1);">1</span>
+    <span class="bt" onclick="addNumber(2);">2</span>
+    <span class="bt" onclick="addNumber(3);">3</span>
+
+    <span class="bt" onclick="addOperator('/');">÷</span>
+
+    <span class="bt" onclick="addNumber(0);">0</span>
+    <span class="bt" onclick="addNumber('.')">.</span>
+
+    <span class="bt" onclick="calculate();">=</span>
+
+    <span class="bt" onclick="addOperator('*');">×</span>
+
+  </div>
+    </div>
+</body>
+</html>
